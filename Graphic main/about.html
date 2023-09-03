@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graphic Designer Portfolio</title>
+    <link rel="stylesheet" href="about.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="content">
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <div class="flex-center">
+          <div class="logo">
+            <h1>Tasnim</h1>
+          </div>
+          <div class="menu-container">
+            <div class="plus flex-center">+</div>
+            <ul class="menu flex-center">
+              <li class="menu-item"
+                ><a href="home.html"> <i class="fa fa-home"></i> </a
+              ></li>
+              <li class="menu-item"
+                ><a href="about.html"> <i class="fa fa-info-circle"></i> </a
+              ></li>
+              <li class="menu-item"
+                ><a href="portfolio.html"> <i class="fa fa-user"></i> </a
+              ></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------details---------- -->
+
+      <div class="about" id="about">
+        <div class="detail">
+          <div class="one">
+            <h2>Name</h2>
+            <p>Tasnim Fatma</p>
+          </div>
+
+          <div class="two">
+            <h2>Age</h2>
+            <p>25</p>
+          </div>
+
+          <div class="three">
+            <h2>Location</h2>
+            <p>Odisha, Sundargarh</p>
+          </div>
+
+          <div class="three">
+            <h2>Phone</h2>
+            <p>123-4567890</p>
+          </div>
+
+          <div class="social">
+            <a href="https://www.linkedin.com/" target="_blank"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/" target="_blank"
+              ><i class="fa fa-github"></i
+            ></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="fa fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- ------------about me---------- -->
+        <div class="info">
+          <img src="images/l.webp" />
+
+          <h1>Hello, I'm<br />Tasnim Fatma</h1>
+          <p
+            >I am s versatile graphic designer who can approach marketing
+            projects from concept to implementation. I am an allround web
+            designer.</p
+          >
+          <button>Contact Me</button>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/5782644820.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      const plusButton = document.querySelector(".plus");
+      const menuContainer = document.querySelector(".menu-container");
+
+      plusButton.onclick = () => {
+        menuContainer.classList.toggle("active");
+      };
+    </script>
+  </body>
+</html>

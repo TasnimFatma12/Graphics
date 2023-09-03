@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graphic Designer Portfolio</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="content">
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <div class="flex-center">
+          <div class="logo">
+            <h1>Tasnim</h1>
+          </div>
+          <div class="menu-container">
+            <div class="plus flex-center">+</div>
+            <ul class="menu flex-center">
+              <li class="menu-item"
+                ><a href="home.html"> <i class="fa fa-home"></i> </a
+              ></li>
+              <li class="menu-item"
+                ><a href="about.html"> <i class="fa fa-info-circle"></i> </a
+              ></li>
+              <li class="menu-item"
+                ><a href="portfolio.html"> <i class="fa fa-user"></i> </a
+              ></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="home" id="home">
+        <div class="text">
+        <h1>Hello</br>I'm a Graphic Designer.</h1> 
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda incidunt, doloribus omnis voluptatibus quidem nemo totam impedit, alias eius excepturi veniam delectus in velit quia tempore, culpa sapiente sunt.</p>
+    </div>
+
+    <div class="img">
+        <img src="images/m.webp">
+    </div>
+    </div>
+
+    <div class="footer">
+        <h6>&copy; Graphic Designer</h6>
+      </div>
+      </div>
+      
+
+    <script
+      src="https://kit.fontawesome.com/5782644820.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      const plusButton = document.querySelector(".plus");
+      const menuContainer = document.querySelector(".menu-container");
+
+      plusButton.onclick = () => {
+        menuContainer.classList.toggle("active");
+      };
+    </script>
+  </body>
+</html>

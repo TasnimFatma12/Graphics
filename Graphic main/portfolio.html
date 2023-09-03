@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graphic Designer Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="content">
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <div class="flex-center">
+          <div class="logo">
+            <h1>Tasnim</h1>
+          </div>
+          <div class="menu-container">
+            <div class="plus flex-center">+</div>
+            <ul class="menu flex-center">
+              <li class="menu-item"
+                ><a href="home.html"> <i class="fa fa-home"></i> </a
+              ></li>
+              <li class="menu-item"
+                ><a href="about.html"> <i class="fa fa-info-circle"></i> </a
+              ></li>
+              <li class="menu-item"
+                ><a href="portfolio.html"> <i class="fa fa-user"></i> </a
+              ></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="heading">
+        <h1>My Design's</h1>
+      </div>
+
+      <div class="portfolio">
+        <img src="images/1.avif" />
+        <img src="images/2.avif" />
+        <img src="images/3.avif" />
+      </div>
+
+      <div class="portfolio">
+        <img src="images/4.avif" />
+        <img src="images/5.avif" />
+        <img src="images/6.avif" />
+      </div>
+
+      
+
+    <script
+      src="https://kit.fontawesome.com/5782644820.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      const plusButton = document.querySelector(".plus");
+      const menuContainer = document.querySelector(".menu-container");
+
+      plusButton.onclick = () => {
+        menuContainer.classList.toggle("active");
+      };
+    </script>
+  </body>
+</html>
